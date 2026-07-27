@@ -9,4 +9,4 @@ den2 = int(input("Enter the denominator of the second fraction: "))
 num = num1 * den2 + num2 * den1
 den = den1 * den2
 g = gcd(num ,den)
-print(f"The sume of the fractions is: {num //g} / {den//g}")
+print(f"The sum of the fractions is: {num //g} / {den//g}")
